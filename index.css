@@ -1,0 +1,214 @@
+/* stylelint-disable max-empty-lines */
+
+body {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  padding: 0%;
+  margin: 0%;
+}
+
+#book-list {
+  border: 1px solid black;
+  width: 80%;
+  box-sizing: border-box;
+  margin-left: calc(100vw / 2 - 40%);
+}
+
+.book-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.book-wrapper:nth-child(odd) {
+  background-color: rgb(240, 233, 233);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin: 0%;
+  line-break: loose;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin: 0%;
+  flex: 1;
+}
+
+.remove-book {
+  box-shadow: 3px 3px;
+  flex-grow: 0;
+  margin: 0.2rem 1rem;
+}
+
+.hr {
+  width: 200px;
+  height: 3px;
+  margin: 2rem 0 4rem;
+  background-color: darkgray;
+}
+
+form {
+  min-width: 30%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  row-gap: 0.5rem;
+  padding: 0%;
+}
+
+ul li input {
+  width: 100%;
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: 2px 2px;
+}
+
+#add-button {
+  float: right;
+  box-shadow: 3px 3px;
+}
+
+
+/* header style */
+
+.header-wraper {
+  margin-top: 1rem;
+  display: flex;
+  width: 97%;
+  border: 1px solid black;
+}
+
+.nav-bar {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar-list {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  column-gap: 1rem;
+  list-style: none;
+  flex-direction: row;
+}
+
+.nav-bar-list li {
+  cursor: pointer;
+}
+
+
+/* date part */
+
+.date-container {
+  width: 100vw;
+  margin-bottom: 4rem;
+}
+
+.date {
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  float: right;
+}
+
+.List-of-books {
+  width: 100%;
+}
+
+.List-of-books h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.add-new-section {
+  width: 40%;
+  display: none;
+}
+
+.add-new-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+/* contact information section */
+
+.contact-information-section {
+  display: none;
+}
+
+.contact-information-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact-information-section div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-information-section ul {
+  width: 60%;
+  list-style: unset;
+}
+
+.contact-information-section span {
+  font-size: 1.5rem;
+}
+
+.contact-information-section ul li {
+  font-size: 1rem;
+}
+
+.footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 98%;
+  margin-bottom: 0.5rem;
+  margin-top: 5rem;
+}
+
+.footer-wrapper footer {
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: rgb(223, 212, 212);
+}
