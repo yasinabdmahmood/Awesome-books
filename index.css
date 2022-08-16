@@ -62,7 +62,7 @@ h1 {
 }
 
 .remove-book {
-  box-shadow: 3px 3px;
+  box-shadow: 1px 1px;
   flex-grow: 0;
   margin: 0.2rem 1rem;
 }
