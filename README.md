@@ -11,7 +11,7 @@ This project helps you keep the record of you favorate books , add new books and
 
 ## Live Demo 
 
-[Live Demo Link](https://yasinabdmahmood.github.io/Awsome-books/)
+[Live Demo Link](https://yasinabdmahmood.github.io/Awesome-books/)
 
 
 
